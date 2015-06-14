@@ -14,6 +14,13 @@ public class TestFinal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        boolean check = true;
+        int a;
+        if (check){
+            a = 1;
+            check = false;
+        }
+        
+        System.out.println(check);
     }
 }
